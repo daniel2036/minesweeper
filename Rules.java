@@ -5,7 +5,7 @@ public class Rules {
 
     private ArrayList<Tile> current = new ArrayList<Tile>();
     private ArrayList<Tile> queue = new ArrayList<Tile>();
-    int number = 10; //replace boardsize and nummines
+    int number = 20; //replace boardsize and nummines
     private static int flaggedTiles = 0;
 
     public void click(Tile tile){
